@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+DESCTOP SIZE
+=================================================== */
+@media (min-width: 600px) {
+    /* Layout */
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+        padding: 1rem 2.5rem 2.5rem;
+    }
+
+    /* Main */
+    main {
+        width: 68%;
+        margin-bottom: 0;
+    }
+
+    /* Aside */
+    aside {
+        width: 26%;
+    }
+}
